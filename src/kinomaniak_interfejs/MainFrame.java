@@ -517,56 +517,8 @@ public class MainFrame extends javax.swing.JFrame {
         
     }//GEN-LAST:event_ButtonMainOdbierzActionPerformed
 
-    private void ListRezerwacjaSeanseActionPerformed(java.awt.event.ActionEvent evt) {                                         
     
-    
-                                               
-//        pMain.setVisible(false);
-//        pListMov.setVisible(true);
-//        tMovieMore.setVisible(false);
-        
-                //String[] movnames = new String[kin.getShow()[].getMovie().getName()];
-//        String movname = kin.getShow()[1].getMovie().getName();
-        
-        //            String movname = kin.getShow()[i].getMovie().getName();
-//            String[] movnames = new String[kin.getShow()[].getMovie().getName()];
-        //String[] movname = kin.getShow()[i].getMovie().getName();
-        
-        
-        
-//        KinomaniakInterface kin = new Klient2();
-//
-//        String[] movnames = {" "};
-//        
-//        for (int i = 0 ; i < 100; i++ ){
-//         
-//            String movname = kin.getShow()[i].getMovie().getName();
-//            movnames[i] = movname;
-//            
-//            
-//
-//        ListRezerwacjaSeanse.setListData((String[])movnames);
-        
-        }
-      
-        
-        //kin.getShow()[i].getMovies().length
-       // String movs = new String[kin.getShow().getMovie().getName();
-        
-       // String[] seanse = kin.getShow()[i].getMovie().getName();
-        
-        //for (int i = 0 ; i < 100; i++ ){
-            
-    //    }
-       // String movs = new String[kin.getShow().getMovie().getName()];
-//        for(int i = 0;i<mgmt.getMovies().length;i++){
-//            movs[i] = mgmt.getMovies()[i].getName();
-//        }
-//        liMovieList.setListData((String[])movs);
-//    } 
-        
-        
-   // } 
+ 
     
     
     private void ButtonRezerwacjaPrzejdzActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonRezerwacjaPrzejdzActionPerformed
