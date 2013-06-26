@@ -162,17 +162,19 @@ public class Klient2 implements KinomaniakInterface {
              return -2;
          }
         rezerwacje = (Res[])odbierzO();
-       /*  for (int i=0;i<rezerwacje.length;i++){
-             System.out.println("Imie i nazwisko: "+rezerwacje[i].getName());
-             System.out.println("Show ID: "+rezerwacje[i].getShowID());
-             System.out.println(rezerwacje[i].formatSeats());
-         }*/
+//         for (int i=0;i<rezerwacje.length;i++){
+//             System.out.println("Imie i nazwisko: "+rezerwacje[i].getName());
+//             System.out.println("Show ID: "+rezerwacje[i].getShowID());
+//             System.out.println(rezerwacje[i].formatSeats());
+//         }
           Res res = null;  
         for (int i=0;i<rezerwacje.length;i++){
+            if(rezerwacje[i].getName() != null){
              if (rezerwacje[i].getName().equals(imienaz)){
                  res = rezerwacje[i];
                  break;
              }
+            }
          } 
         
          tmp = (String) odbierzO();
@@ -202,6 +204,7 @@ public class Klient2 implements KinomaniakInterface {
         ///////////////////////////////////////////////
             tmp =(String) odbierzO();
          if (!tmp.equals("!GDATA!")){
+             System.out.println(tmp);
              System.out.println("Błąd serwera, oczekiwano !Gdata!");
              rozlacz();
              return -1;
@@ -221,6 +224,7 @@ public class Klient2 implements KinomaniakInterface {
          }*/
           Res res = null;  
         for (int i=0;i<rezerwacje.length;i++){
+            System.out.println(rezerwacje[i].getName());
              if (rezerwacje[i].getName().equals(imienaz)){
                  res = rezerwacje[i];
                  break;
